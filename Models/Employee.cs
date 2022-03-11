@@ -58,7 +58,7 @@ namespace EmployeeManager.Jquery.Models
 
         [Column("Notes")]
         [Display(Name = "Notes")]
-        [StringLength(500, ErrorMessage = "Notes must be less than 500 characters")]
+        [StringLength(600, ErrorMessage = "Notes must be less than 600 characters")]
         public string Notes { get; set; }
     }
 }
